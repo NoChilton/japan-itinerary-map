@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03f0a3d9573483d783c40a7db8df61d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_03f0a3d9573483d783c40a7db8df61d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03f0a3d9573483d783c40a7db8df61d4 = L.map(
+                "map_03f0a3d9573483d783c40a7db8df61d4",
+                {
+                    center: [35.5, 137.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e67db26d0dc1b123f26e7e0775f36d1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            var marker_a142319ebc056854d0c2d8515010ebe4 = L.marker(
+                [35.6762, 139.6503],
+                {}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            marker_a142319ebc056854d0c2d8515010ebe4.bindTooltip(
+                `<div>
+                     Tokyo (May 27 & Jun 4)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9598ebde1cd51daf039a63c4e85df237 = L.marker(
+                [36.7485, 139.5986],
+                {}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            marker_9598ebde1cd51daf039a63c4e85df237.bindTooltip(
+                `<div>
+                     Nikko (May 29)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b49c1d1f90116c9b74f236f71b361886 = L.marker(
+                [35.6265, 134.8282],
+                {}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            marker_b49c1d1f90116c9b74f236f71b361886.bindTooltip(
+                `<div>
+                     Kinosaki Onsen (May 30)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b612c5ad696f4d269ff5d0c9e0fb018b = L.marker(
+                [34.459, 133.9957],
+                {}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            marker_b612c5ad696f4d269ff5d0c9e0fb018b.bindTooltip(
+                `<div>
+                     Naoshima (May 31)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e74acceb2abfadc1597bc165768e923 = L.marker(
+                [35.0116, 135.7681],
+                {}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            marker_2e74acceb2abfadc1597bc165768e923.bindTooltip(
+                `<div>
+                     Kyoto (Jun 1)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aac49c788502ce707581b26eecc79b5f = L.marker(
+                [36.5613, 136.6562],
+                {}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            marker_aac49c788502ce707581b26eecc79b5f.bindTooltip(
+                `<div>
+                     Kanazawa (Jun 3)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8d2ba9cb4e26c2b31bee40d3a07aeaf7 = L.polyline(
+                [[35.6762, 139.6503], [36.7485, 139.5986]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            poly_line_8d2ba9cb4e26c2b31bee40d3a07aeaf7.setText(
+                "\u27a4 Tobu Limited Express ",
+                {"attributes": {"fill": "black", "font-size": "13", "font-weight": "bold"}, "below": false, "center": false, "offset": 10, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var poly_line_5b7d07ed87cc9d830dae9fd132616d5d = L.polyline(
+                [[36.7485, 139.5986], [35.6265, 134.8282]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            poly_line_5b7d07ed87cc9d830dae9fd132616d5d.setText(
+                "\u27a4 Shinkansen + Ltd Express ",
+                {"attributes": {"fill": "black", "font-size": "13", "font-weight": "bold"}, "below": false, "center": false, "offset": 18, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var poly_line_4ad87bc736f31999d497ded5299211d2 = L.polyline(
+                [[35.6265, 134.8282], [34.459, 133.9957]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            poly_line_4ad87bc736f31999d497ded5299211d2.setText(
+                "\u27a4 Ltd Express + Ferry ",
+                {"attributes": {"fill": "black", "font-size": "13", "font-weight": "bold"}, "below": false, "center": false, "offset": 10, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var poly_line_877d189825ef1a7989649b017f94dc87 = L.polyline(
+                [[34.459, 133.9957], [35.0116, 135.7681]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            poly_line_877d189825ef1a7989649b017f94dc87.setText(
+                "\u27a4 Ferry + Shinkansen ",
+                {"attributes": {"fill": "black", "font-size": "13", "font-weight": "bold"}, "below": false, "center": false, "offset": 18, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var poly_line_2f9a8542b11979c45c246853441f5550 = L.polyline(
+                [[35.0116, 135.7681], [36.5613, 136.6562]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            poly_line_2f9a8542b11979c45c246853441f5550.setText(
+                "\u27a4 Thunderbird Express ",
+                {"attributes": {"fill": "black", "font-size": "13", "font-weight": "bold"}, "below": false, "center": false, "offset": 10, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var poly_line_1b46ca7ac6fd72e467b34d2142fe85c0 = L.polyline(
+                [[36.5613, 136.6562], [35.6762, 139.6503]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03f0a3d9573483d783c40a7db8df61d4);
+        
+    
+            poly_line_1b46ca7ac6fd72e467b34d2142fe85c0.setText(
+                "\u27a4 Hokuriku Shinkansen ",
+                {"attributes": {"fill": "black", "font-size": "13", "font-weight": "bold"}, "below": false, "center": false, "offset": 18, "orientation": 0, "repeat": true}
+            );
+        
+</script>
+</html>
